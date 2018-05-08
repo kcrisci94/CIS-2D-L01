@@ -8,7 +8,7 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ch04_ex3_TestScore.iml" filepath="$PROJECT_DIR$/ch04_ex3_TestScore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ch04_ex1_FutureValue.iml" filepath="$PROJECT_DIR$/ch04_ex1_FutureValue.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_10" project-jdk-name="10" project-jdk-type="JavaSDK">
