@@ -3,5 +3,30 @@ show the steps in order to create a container and an image.
 
 //Create Docker Machine
 docker-machine create -d virtualbox default
+docker-machine env default
+eval $(docker-machine env default)
 
-//
+//Create Docker Container
+//Will download if does not exist locally
+docker create -it jboss/wildfly
+
+//Run the Container in Interactive Mode
+docker container run -it jboss/wildfly
+
+//Run the Container in Detatched Mode
+docker container run -d jboss/wildfly
+
+
+//View Image
+
+//Assigns a name and a port to the container
+docker container -d --name web -P jboss/wildfly
+//get port number
+docker container ls
+
+//For Docker Toolbox
+//use machine ip address instead of localhost
+docker-machine ip default
+
+//enter either "localhost" or machine ip address followed by a colon and then the container port number
+
