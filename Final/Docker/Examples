@@ -1,0 +1,7 @@
+//Because everyting is done in a command line and not using an IDE, it is difficult to show the proper steps in code. So I'm going to
+show the steps in order to create a container and an image.
+
+//Create Docker Machine
+docker-machine create -d virtualbox default
+
+//
