@@ -35,4 +35,8 @@ Build an Image:
 5.	Type ‘docker image build –t IMAGETAGNAME’ (the dash t gives the tag name)
 6.	Run the container using ‘docker container run IMAGETAGNAME’
 
-
+View the Image (Declare Ports)
+1. Run container in detatched mode, giving it a name and choosing a random port. 'docker container run -d --name web -P IMAGENAME'
+2. Use 'docker container ls' to see the port information. 
+3. If using Docker Toolbox, type the machine IP address into the url followed by a colon, then type the port number.
+4. If using Docker, type 'localhost:' and then the port number. 
